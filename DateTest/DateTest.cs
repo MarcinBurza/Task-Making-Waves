@@ -19,7 +19,7 @@ namespace DateTest
             result = Program.printDate(date, date2);
 
             //Assert
-            Assert.AreEqual(expected, result,"działa");
+            Assert.AreEqual(expected, result,"metod printDate working");
         }
         [TestMethod]
         public void TestFormatDate()
@@ -32,7 +32,7 @@ namespace DateTest
             result = Program.formatValidation(date, date2);
 
             //Assert
-            Assert.IsTrue( result, "działa");
+            Assert.IsTrue( result, "metod formatValidation working");
         }
 
     }
